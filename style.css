@@ -73,6 +73,7 @@ img{
 .photo-grid-container{
     display: flex;
     justify-content: center;
+    padding: 100px;
 }
 
 .photo-grid{
@@ -94,6 +95,52 @@ img{
     font-size: 36px;
     color: #1F2937;
 }
+
+/* img section end */
+/* *************************************************** */
+/* quote section start */
+
+.quote{
+    background-color: #E5E7EB;
+    font: 36px light italic #1F2937;
+    padding: 100px;
+    text-align: center;
+}
+
+/* quote section end */
+/* **************************************************** */
+/* call to action section start */
+.call-to-action-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.call-to-action-item{
+    background-color: #3882F6;
+    padding: 30px 100px;
+}
+
+#call-to-action-button{
+    border: 1px solid white;
+    background-color: #3882F6;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* call to action section end */
+/* *************************************************** */
+/* copyright section start */
+
+.copyright{
+    text-transform: capitalize;
+    background-color: #1F2937;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+
 
 
 
